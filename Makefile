@@ -2,7 +2,7 @@ install:
 	uv sync
 
 check:
-	uv check
+	uv sync --dry-run
 
 build:
 	uv build
